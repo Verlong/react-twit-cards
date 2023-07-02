@@ -1,17 +1,17 @@
-import { Button, Container, LogoImg, Title, TweetPic } from './CardItem.styled';
+import css from './CardItem.module.css';
 import logo from '../../img/logogoit.png';
 import tweetpic from '../../img/tweetsimg.png';
 
 const CardItem = () => {
   return (
-    <Container>
-      <LogoImg src={logo} alt="logo" />
-      <TweetPic src={tweetpic} alt="tweets img" />
+    <div className={css.container}>
+      <img className={css.logo} src={logo} alt="logo" />
+      <img className={css.tweetPic} src={tweetpic} alt="tweets img" />
 
-      <Title>777 TWEETS</Title>
-      <Title>FOLLOWERS</Title>
-      <Button>FOLLOW</Button>
-    </Container>
+      <p className={css.title}>777 TWEETS</p>
+      <p className={css.title}>FOLLOWERS</p>
+      <button>FOLLOW</button>
+    </div>
   );
 };
 

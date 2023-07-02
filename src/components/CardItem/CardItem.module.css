@@ -1,6 +1,4 @@
-import styled from 'styled-components';
-
-export const Container = styled.div`
+.container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -11,9 +9,9 @@ export const Container = styled.div`
   background: linear-gradient(142deg, #471ca9 0%, #5736a3 69.1%, #4b2a99 100%);
   box-shadow: -2.5776965618133545px 6.873857021331787px 20.621572494506836px 0px
     rgba(0, 0, 0, 0.23);
-`;
+}
 
-export const Button = styled.button`
+button {
   display: flex;
   width: 196px;
   padding: 14px 28px;
@@ -30,9 +28,9 @@ export const Button = styled.button`
   font-weight: 600;
   line-height: normal;
   text-transform: uppercase;
-`;
+}
 
-export const Title = styled.p`
+.title {
   color: #ebd8ff;
   font-size: 20px;
 
@@ -40,17 +38,17 @@ export const Title = styled.p`
   font-weight: 500;
   line-height: normal;
   text-transform: uppercase;
-`;
+}
 
-export const LogoImg = styled.img`
+.logo {
   width: 76px;
   height: 22px;
   flex-shrink: 0;
   color: white;
-`;
+}
 
-export const TweetPic = styled.img`
+.tweetPic {
   width: 308px;
   height: 168px;
   flex-shrink: 0;
-`;
+}
